@@ -15,7 +15,8 @@ const hotel_array = [
     thumbnailUrl:
       "//images.trvl-media.com/hotels/1000000/50000/41300/41233/6a59be60_b.jpg",
     timeWalk: 12,
-    timeCar: 3
+    timeCar: 3,
+    freeCancellation: true
   },
   {
     hotelId: "41233",
@@ -27,8 +28,9 @@ const hotel_array = [
     guestRating: "4.7",
     thumbnailUrl:
       "//images.trvl-media.com/hotels/3000000/2240000/2239900/2239843/13264643_b.jpg",
-    timeWalk: 12,
-    timeCar: 3
+    timeWalk: 15,
+    timeCar: 5,
+    freeCancellation: false
   },
   {
     hotelId: "945",
@@ -40,8 +42,9 @@ const hotel_array = [
     guestRating: "4.1",
     thumbnailUrl:
       "//images.trvl-media.com/hotels/1000000/10000/1000/945/59ee5785_b.jpg",
-    timeWalk: 12,
-    timeCar: 3
+    timeWalk: 35,
+    timeCar: 10,
+    freeCancellation: true
   }
 ];
 export default function App() {
